@@ -80,6 +80,10 @@ img {
         transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-nav-link .active {
+        color: #404bbf;
+}
+
 .header-nav-link.active::after {
         display: block;
         position: absolute;
